@@ -6,16 +6,17 @@
 - 이름을 가질 수 있다.
     - 의미 전달이 용이한 코드를 작성할 수 있다.
     ```
-    :question: 이름을 정의하기 어려운 케이스도 존재하지 않을까?
-    :exclamation: 필드가 여러 개일 경우는 Builder를 활용
+    🤔 이름을 정의하기 어려운 케이스도 존재하지 않을까?
+    🤗 필드가 여러 개일 경우는 Builder를 활용
     ```
 - 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다.
     ```
-    :question: Singleton pattern은 정적 메서드만이 방법은 아니다. 이를 정적 메서드의 장점이라고 할 수 있는가?
+    🤔 Singleton pattern은 정적 메서드만이 방법은 아니다. 이를 정적 메서드의 장점이라고 할 수 있는가?
     ```
     ```
-    :question: Flyweight pattern VS Singleton pattern?
-    :exclamation: [Flyweight pattern은 Sigleton pattern의 한 방법](https://stackoverflow.com/questions/16750758/what-are-the-practical-use-differences-between-flyweight-vs-singleton-patterns)
+    🤔 Flyweight pattern VS Singleton pattern?
+    🤗 Flyweight pattern은 Sigleton pattern의 한 방법
+        참조: https://stackoverflow.com/questions/16750758/what-are-the-practical-use-differences-between-flyweight-vs-singleton-patterns
     ```
 - 반환 타입을 하위 타입 객체로 반환할 수 있는 능력이 있다.
 - 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다.
