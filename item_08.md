@@ -32,3 +32,4 @@
 ## `finalizer` 사용이 필요한 상황
 ### 리소스의 사용하고 `close` 메서드를 호출하지 않았을때, 안전장치 역할을 수행할 수 있다.
 ### native peer와 연결된 객체를 사용하는 경우
+> native peer란 native 객체를 의미하고 해당 객체는 GC(Garbage Collection)의 대상이 되지 않는다.
