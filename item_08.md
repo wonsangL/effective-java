@@ -1,4 +1,4 @@
-# `finalizer`와 `cleaner` 사용을 피하라
+# Item 8. `finalizer`와 `cleaner` 사용을 피하라
 `finalizer`는 실행 타이밍을 예상할 수 없고, 상황에 따라 성능 저하의 원인이 되기도 한다.
 
 `cleaner`는 `finalizer`에 비해서는 덜 위험하지만 여전히 여러 단점을 가지고 있다.
