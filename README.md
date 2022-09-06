@@ -29,3 +29,5 @@
 
 ### 3장 모든 객체의 공통 메서드
 10. [Item 10. `equals`는 일반 규약을 지켜 재정의하라](item_10.md)
+11. [Item 11. `equals`를 재정의하려거든 `hashCode`도 재정의하라](item_11.md)
+12. [Item 12. `toString`을 항상 재정의하라](item_12.md)
