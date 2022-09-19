@@ -29,3 +29,18 @@
 [상속 구조에서 추이성이 깨지는 예제 코드](/code/src/test/java/item14/ColorPointTest.java)
 
 위의 코드에서는 추이성이 깨지는 간단한 예제와 추이성이 깨지면 정렬과정에서 발생할 수 있는 문제를 간단하게 보여주고 있다.
+
+## Compare construction method
+다음과 같이 메서드 연쇄 방식으로 비교자를 생성할 수 있다.
+
+```java
+public class ColorPoint extends Point {
+    private String color;
+
+    private static final Comparator<ColorPoint> COMPARATOR = 
+            Comparator.comparing((ColorPoint point) -> point.getDistance())
+            .thenComparing(point -> point.color);
+}
+```
+
+위 예제의 전체 코드는 [링크](/code/src/main/java/item14/ColorPoint.java)에서 확인할 수 있다.

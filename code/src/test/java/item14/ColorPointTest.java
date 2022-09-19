@@ -50,4 +50,14 @@ class ColorPointTest {
 
         points.forEach(System.out::println);
     }
+
+    @Test
+    void comparedByComparatorTest() {
+        ColorPoint a = new ColorPoint(1, 1, "red");
+        ColorPoint b = new ColorPoint(1, 1, "blue");
+
+        int result = a.compareTo(b);
+
+        assertEquals(1, Math.signum(result));
+    }
 }

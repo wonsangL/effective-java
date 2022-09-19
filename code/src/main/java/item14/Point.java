@@ -9,16 +9,17 @@ public class Point implements Comparable<Point> {
         this.y = y;
     }
 
+    public Double getDistance() {
+        return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
+    }
+
     @Override
     public int compareTo(Point other) {
         if (this == other) {
             return 0;
         }
 
-        Double distance = Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
-        Double otherDistance = Math.sqrt(Math.pow(other.x, 2) + Math.pow(other.y, 2));
-
-        return distance.compareTo(otherDistance);
+        return this.getDistance().compareTo(other.getDistance());
     }
 
     @Override

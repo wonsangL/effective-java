@@ -1,7 +1,12 @@
 package item14;
 
+import java.util.Comparator;
+
 public class ColorPoint extends Point {
     private String color;
+
+    private static final Comparator<ColorPoint> COMPARATOR = Comparator.comparing((ColorPoint point) -> point.getDistance())
+            .thenComparing(point -> point.color);
 
     public ColorPoint(int x, int y, String color) {
         super(x, y);
@@ -17,6 +22,10 @@ public class ColorPoint extends Point {
         }
 
         return result;
+    }
+
+    public int compareTo(ColorPoint point) {
+        return COMPARATOR.compare(this, point);
     }
 
     @Override
