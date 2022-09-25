@@ -12,7 +12,7 @@ public class ImmutableClassTest {
 
         origin = origin + " world";
 
-        String newString = "hello";
+        String newString = new String("hello");
 
         System.out.println(origin == copy);
         System.out.println(copy == newString);
