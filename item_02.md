@@ -14,5 +14,5 @@
        빌더 패턴에서는 build() 메소드를 호출하기 전까지 
        즉, 객체를 생성하기 전까지 해당 객체에 접근할 수 없기 때문에 일관성을 유지할 수 있다.
     ```
-  - [자바빈즈 패턴에서 일관성이 깨지는 예제 코드](code/src/main/java/item02/consistency/JavaBeansPattern.java)
-  - [생성자를 통해 일관성을 지키는 예제 코드](code/src/main/java/item02/consistency/Constructor.java)
+  - [자바빈즈 패턴에서 일관성이 깨지는 예제 코드](code/src/test/java/item02/consistency/JavaBeansPattern.java)
+  - [생성자를 통해 일관성을 지키는 예제 코드](code/src/test/java/item02/consistency/Constructor.java)

@@ -15,7 +15,7 @@
     🤗 Singleton은 오로지 하나의 객체를 생성하고 이를 재활용하여 메모리를 절약하는 디자인 패턴이지만, flywegith은 객체가 여러개 생기더라도 문제가 되지 않는다.
         참조: https://stackoverflow.com/questions/16750758/what-are-the-practical-use-differences-between-flyweight-vs-singleton-patterns
     ```
-  - [flyweight pattern 예제 코드](code/src/main/java/item01/flyweight)
+  - [flyweight pattern 예제 코드](code/src/test/java/item01/flyweight)
 - 반환 타입을 하위 타입 객체로 반환할 수 있는 능력이 있다.
 - 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다.
 - 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다.

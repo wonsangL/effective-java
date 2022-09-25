@@ -18,7 +18,7 @@
 🤗 HashMap, ConcurrentHashMap의 keySet 인스턴스가 clear, remove 호출시 map에도 영향을 준다.
    race condition이 발생하지만 않으면 이는 thread-safe 하다고 할 수 있는가?
 ```
-- [`keySet` 예제 코드](code/src/main/java/item06/KeySetTest.java)
+- [`keySet` 예제 코드](code/src/test/java/item06/KeySetTest.java)
 ```
 🤔 finite state machine이란? 
 🤗 finite state machine은 유한한 상태를 가지며, 한 번에 오로지 하나의 상태만을 가지게 된다.

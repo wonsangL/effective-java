@@ -9,4 +9,4 @@
 🤔 하지만 Reflection을 사용한다면?
 🤗 인스턴스화를 완벽하게 막을 수는 없다, 그럼 어떻게하면 인스턴스화를 완벽하게 막을 수 있을까?
 ```
-   - [Reflection을 사용한 인스턴스화 예제 코드](code/src/main/java/item04)
+   - [Reflection을 사용한 인스턴스화 예제 코드](code/src/test/java/item04)

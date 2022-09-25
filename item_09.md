@@ -16,5 +16,5 @@ public interface AutoCloseable {
 
 
 
-[suppressed exception 예제 코드](code/src/main/java/item09/AutoCloseableTest.java)
+[suppressed exception 예제 코드](code/src/test/java/item09/AutoCloseableTest.java)
 
