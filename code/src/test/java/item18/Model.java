@@ -1,7 +1,7 @@
 package item18;
 
 public class Model {
-    private Controller controller;
+    private final Controller controller;
 
     public Model(Controller controller) {
         this.controller = controller;
